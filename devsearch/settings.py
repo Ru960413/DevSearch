@@ -216,6 +216,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
+# getcwd() returns current working directory of a process.
 if os.getcwd() == '/app':
     DEBUG=False
